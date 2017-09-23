@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/birth"
+    android:gravity="center"
+
+    >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+              android:orientation="vertical"
+             android:gravity="center"
+             
+            
+            
+            >
+            
+             <EditText
+        android:id="@+id/editText1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="14" 
+        android:layout_gravity="center"
+        android:background="@drawable/etbg"
+        android:hint="Name"
+        android:textColor="@color/babyblue"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="20dp"
+	 	android:singleLine="true"
+	 	android:layout_marginLeft="20dp"
+	 	android:layout_marginRight="20dp"
+		
+        >
+
+
+      </EditText>  
+      
+              <EditText
+        android:id="@+id/editText2"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="14" 
+        android:layout_gravity="center"
+        android:background="@drawable/etbg"
+        android:hint="Date Of Birth"
+        android:textColor="@color/babyblue"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:layout_marginLeft="20dp"
+	 	android:layout_marginRight="20dp"
+        >
+        
+    </EditText>
+            
+               <RelativeLayout 
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         >
+           <EditText
+        android:id="@+id/etmb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="12" 
+        android:layout_gravity="center"
+        android:background="@drawable/etbg"
+        android:hint="Mobile"
+        android:textColor="@color/babyblue"
+        android:paddingLeft="10dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:layout_marginTop="20dp"
+        android:singleLine="true"
+        android:inputType="phone"
+        android:layout_marginLeft="20dp"
+	 	android:layout_marginRight="20dp"
+        >
+        
+    </EditText>
+
+           <ImageView
+               android:id="@+id/ivct"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignTop="@+id/etmb"
+               android:layout_toRightOf="@+id/etmb"
+               android:src="@drawable/ic_action_add_person" />
+         
+     </RelativeLayout>
+     
+     
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="SAVE" 
+         android:background="@drawable/bluebt"
+         android:textColor="@color/white"
+         android:layout_gravity="center"
+         android:layout_marginTop="30dp"
+         
+         />
+              
+               <Button
+         android:id="@+id/button2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="update" 
+         android:background="@drawable/bluebt"
+         android:textColor="@color/white"
+         android:layout_gravity="center"
+         android:layout_marginTop="30dp"
+         
+         />
+              
+        </LinearLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/txtsave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="20dp"
+        android:textSize="@dimen/title" 
+        android:textColor="@color/green"
+        />
+   
+</LinearLayout>

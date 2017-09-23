@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/white"
+    android:gravity="center"
+
+    >
+
+    
+ <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" 
+              android:orientation="vertical"
+             android:gravity="center"
+            >
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12" 
+        android:layout_gravity="center"
+        android:background="@drawable/etbg"
+        android:hint="Name Of Event"
+        android:textColor="@color/babyblue"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="10dp"
+
+        >
+
+        <requestFocus />
+      </EditText>  
+      
+    
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="12" 
+        android:layout_gravity="center"
+        android:background="@drawable/etbg"
+        android:hint="Date Of Event"
+        android:textColor="@color/babyblue"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:layout_marginTop="20dp"
+
+        >
+
+        
+      </EditText>
+   
+     
+     <Button
+         android:id="@+id/button1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="SAVE" 
+         android:background="@drawable/bluebt"
+         android:textColor="@color/white"
+         android:layout_gravity="center"
+         android:layout_marginTop="20dp"
+         
+         />
+
+     </LinearLayout>
+     </ScrollView>
+     
+</LinearLayout>

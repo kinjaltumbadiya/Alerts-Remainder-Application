@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+   
+    android:padding="8dp" >
+ 
+    <!-- Thumbnail Image -->
+   <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" 
+        android:layout_marginTop="-5dp"
+        android:src="@drawable/ic1"/>
+ 
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/title"
+        android:text="Name of birthday"
+        android:textStyle="bold" 
+        android:textColor="@color/azure"
+        />
+ 
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/rating"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title"
+        android:layout_marginTop="1dip"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textSize="@dimen/rating"
+        android:text="Date" />
+     
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rating"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:textColor="#666666"
+        android:textSize="@dimen/genre" 
+        android:text="20 Days Left"/>
+ 
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/releaseYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/red"
+        android:text="turn"
+        android:textSize="@dimen/title"
+        android:layout_marginTop="-5dp"
+         />
+
+     <TextView
+         android:id="@+id/releaseYearr"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/rating"
+         android:layout_centerVertical="true"
+         android:text="trunjjhhj"
+         android:textColor="@color/red"
+         android:textSize="@dimen/title"
+          />
+ 
+</RelativeLayout>

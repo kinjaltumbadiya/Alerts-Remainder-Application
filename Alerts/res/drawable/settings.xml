@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Notification Settings" >
+        <SwitchPreference
+                android:title="Notification"
+                android:summary="ON/OFF"
+                android:defaultValue="false"
+                />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Alaram Settings" >
+        <SwitchPreference
+                android:title="Alaram"
+                android:summary="ON/OFF"
+                android:defaultValue="false"
+                />
+       
+        <RingtonePreference 
+            android:showDefault="true"
+     		android:key="Audio" 
+     		android:title="Alarm Tone"
+     		android:summary="Select Alaram Tone"
+     		android:ringtoneType="notification">
+  </RingtonePreference>
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="Time Settings" >
+       
+        <TimePreference
+        android:key="timePrefA_Key"
+        android:title="Default notification time"
+        android:summary="Select time for notification and alaram"
+        />    
+            
+    </PreferenceCategory>
+    
+    
+    <PreferenceCategory android:title="About Us" >
+        
+		 <Preference
+                android:title="About Us"
+                android:summary="About app and developers"
+          >
+		     
+		     <intent 
+        android:action="android.intent.action.VIEW"
+        android:targetPackage="com.example.alerts"
+        android:targetClass="com.example.alerts.Aboutus"
+    />
+		     
+		 </Preference>
+        </PreferenceCategory>
+
+</PreferenceScreen>

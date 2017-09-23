@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+	android:weightSum="100"
+    android:orientation="vertical"
+    >
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:layout_weight="10">
+    <ListView
+        android:id="@+id/listView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+     
+        >
+        
+    </ListView>
+    </LinearLayout>
+    <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+     android:layout_weight="20">
+    <com.google.ads.AdView
+    android:id="@+id/edt_1"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    ads:adSize="BANNER"
+    ads:adUnitId="ca-app-pub-4256293204520163/4275084731"
+    ads:loadAdOnCreate="true" />
+    </LinearLayout>
+
+    
+</LinearLayout>

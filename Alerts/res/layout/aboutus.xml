@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical"
+            >
+            
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:weightSum="100"
+            >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:paddingTop="10dp"
+                android:text="ALERTS"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/azure"
+                android:layout_weight="10"
+                 />
+        </LinearLayout>
+        <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="1. Birthdays"
+             android:textAppearance="?android:attr/textAppearanceMedium" 
+             android:textColor="@color/red"
+             android:paddingTop="15dp"
+             android:paddingLeft="10dp"
+             />
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="horizontal"
+            android:paddingLeft="10dp"
+            
+            
+            >
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:src="@drawable/ico" 
+             />
+
+         
+         
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To notify alerts for Birthdays"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+         />
+
+      </LinearLayout>
+       <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="2. Anniversary"
+             android:textAppearance="?android:attr/textAppearanceMedium" 
+             android:textColor="@color/red"
+             android:paddingTop="15dp"
+             android:paddingLeft="10dp"
+             />
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="horizontal"
+            android:layout_weight="10"
+            android:paddingLeft="10dp"
+        	    
+            
+            >
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:src="@drawable/aiv" />
+         
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To notify alerts for Anniversary"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+         />
+
+      </LinearLayout>
+       <TextView
+             android:id="@+id/textView3"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="3. Custom"
+             android:textAppearance="?android:attr/textAppearanceMedium" 
+             android:textColor="@color/red"
+             android:paddingTop="15dp"
+             android:paddingLeft="10dp"
+             />
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="horizontal"
+            android:layout_weight="10"
+            android:paddingLeft="10dp"
+            
+            
+            >
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:src="@drawable/icus" />
+         
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="To notify alerts for Custom(i.e Meeting,Marraige,Events,etc..)"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+         />
+
+      </LinearLayout>
+      
+              <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="horizontal"
+            android:layout_weight="10"
+            android:paddingTop="40dp"
+            android:gravity="center"
+           >
+          
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version:-"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="10dp"
+        
+        android:textColor="@color/red"
+         />
+           <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="10dp"
+        android:textColor="@color/azure"
+         />
+
+      </LinearLayout>
+      
+                <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="horizontal"
+            android:layout_weight="10"
+            
+            android:gravity="center"
+           >
+          
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Developed in year:-"
+       android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="10dp"
+        
+        android:textColor="@color/red"
+         />
+           <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2014"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingLeft="10dp"
+        android:textColor="@color/azure"
+         />
+
+      </LinearLayout>
+      
+              
+      <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NEW VERSION COMING SOON!!"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:layout_gravity="center"
+        android:paddingTop="40dp"
+        android:textColor="@color/azure"
+        />
+
+       <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="horizontal"
+            android:layout_weight="10"
+            android:paddingLeft="10dp"
+            android:layout_gravity="center"
+            android:paddingTop="10dp"
+            
+            >
+
+         <ImageView
+             android:id="@+id/imageView1"
+             android:layout_width="50dp"
+             android:layout_height="50dp"
+             android:src="@drawable/fb" 
+             android:paddingTop="5dp"
+             />
+         
+         <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login with facebook and get your facebook friends birthdays in app and get notify on their birthdays."
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:paddingLeft="10dp"
+        android:layout_gravity="center"
+         />
+
+      </LinearLayout>
+      
+       
+      
+      </LinearLayout>
+      
+        
+        
+	</ScrollView>
+
+    
+	
+</LinearLayout>

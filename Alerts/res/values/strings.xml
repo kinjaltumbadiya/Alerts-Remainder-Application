@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Alerts</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+ 
+   
+ 
+    <string name="action_settings">Settings</string>
+   
+
+    <!-- Nav Drawer Menu Items -->
+    <string-array name="navigation_drawer_items_array">
+        <item>Birthdays</item>
+        <item>Anniversary</item>
+        <item>Custom</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    
+    <string-array name="countries_array">
+        <item>China</item>
+        <item>India</item>
+        <item>USA</item>
+        <item>Indonesia</item>
+        <item>Brazil</item>
+        <item>Pakistan</item>
+        <item>Nigeria</item>
+        <item>Bangladesh</item>
+        <item>Russia</item>
+    </string-array>   
+     <string-array name="updateFrequency">
+        <item name="1">Daily</item>
+        <item name="7">Weekly</item>
+        <item name="3">Yearly</item>
+        <item name="0">Never(I will Myself) </item>
+    </string-array>
+    <string-array name="updateFrequencyValues">
+        <item name="1">1</item>
+        <item name="7">7</item>
+        <item name="30">30</item>
+        <item name="0">0</item>
+    </string-array>
+</resources>

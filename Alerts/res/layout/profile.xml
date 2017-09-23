@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+   	android:background="@color/white"
+    android:weightSum="100"
+  
+    >
+
+    <ImageView
+        android:id="@+id/iv1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="-40dp"
+        android:paddingTop="-20dp"
+        android:src="@drawable/bimg" 
+        android:layout_weight="90"
+        />
+
+   <LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+   	android:layout_gravity="center"
+   	android:gravity="center"
+    android:layout_weight="5"
+    
+    >
+   
+
+    <Button
+        android:id="@+id/btnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/greenbt"
+        android:text="Next"
+        android:textColor="@color/white" 
+        android:layout_gravity="center"
+    	android:layout_marginBottom="20dp"
+   		android:layout_marginRight="10dp"
+   		android:layout_marginTop="10dp"
+   		android:ems="5"  
+   	  
+   	   
+        />
+    
+     <Button
+        android:id="@+id/btskip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/redbt"
+        android:text="Skip"
+        android:textColor="@color/white" 
+        android:layout_gravity="center"
+    	android:layout_marginBottom="20dp"
+   		android:layout_marginTop="10dp"
+   		android:ems="5"  
+   	
+        />
+    
+</LinearLayout>
+   
+    </LinearLayout>
